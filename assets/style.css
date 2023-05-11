@@ -147,6 +147,21 @@ padding-bottom: 20px;
   border-radius: 20px 20px 0px 0px;
  
 }
+.fa-circle-check{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    color: white;
+}
+.check{
+  width: 0;
+  opacity: 0;
+  background: #99E2D0;
+  border-radius: 0px 15px 15px 0px;
+  transition: width 0.7s, opacity 0.7s;
+
+}
 .resto-description{
 display: flex;
 flex-direction: row;
@@ -362,4 +377,11 @@ to {
   }
 to   { transform: scale(1);
 }
+}
+/*animation sur check */
+
+.entre1:hover .check{
+  width:15%;
+  opacity: 1;
+
 }
