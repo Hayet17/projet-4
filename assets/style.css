@@ -8,7 +8,7 @@ margin:0px;
  }
  .iconefleche{
   width:35%;
-
+  color: black;
  }
  .fleche{
   padding-top:30px;
@@ -110,6 +110,7 @@ text-align: center;
 position: absolute;
 margin-top: 23px;
 margin-left: -12px;
+line-height: 24px;
 }
 .icone{
 position: absolute;
@@ -125,8 +126,6 @@ h2{
 }
 .resto{
 background-color:#F6F6F6;
-padding-top: 30px;
-margin-top: 30px;
 padding-bottom: 30px;
 }
 .resto h2{
@@ -135,7 +134,13 @@ margin-left: 20px;
 .resto h1{
 margin-left: 16px;
 }
+.restaurant{
+  background-color:  #F6F6F6;
+  margin: 0;
+  padding: 20px;
+}
 .cartes{
+position: relative;
 display: flex;
 flex-direction: column;
 background-color: white;
@@ -213,9 +218,8 @@ opacity: 1;
 .iconecoeur:hover .coeurvide {
 opacity: 0;
 }
-​
 .object{
-/*height:300px; */
+height:300px;
 object-fit: cover;
 }
 /* partie footer */
@@ -406,12 +410,7 @@ to   { transform: scale(1);
   width:15%;
   opacity: 1;
 }
- /* media queries  version tablette*/
- @media  screen and(min-width:768px) {
 
-
-  
- }
  /* media queries version  desktop */
  @media screen and (min-width:1025px){
   .logo{
